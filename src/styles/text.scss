@@ -1,0 +1,39 @@
+.card-title {
+  padding-bottom: 0.1rem;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-tool {
+  float: right;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+  white-space: nowrap;
+  &:not(:first-child) {
+    margin-right: 5px;
+  }
+}
+
+.form-group label {
+  font-size: 0.9em;
+  padding-bottom: 0;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.text-disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.hover-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.dropdown-menu.show {
+  line-height: 1.5rem;
+}

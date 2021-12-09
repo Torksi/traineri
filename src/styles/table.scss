@@ -1,0 +1,61 @@
+td,
+th,
+table {
+  color: $black;
+}
+
+.table thead th {
+  border-bottom: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: $gray-6;
+}
+
+.table-bordered {
+  border: none;
+}
+
+.datagrid {
+  height: 35rem;
+}
+
+.table-datagrid {
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
+  font-size: 0.95rem;
+
+  th,
+  td {
+    padding: 0.4rem 0.6rem 0.4rem;
+    white-space: nowrap;
+  }
+
+  th {
+    span:first-child {
+      padding-right: 0.3rem;
+    }
+  }
+
+  tr:hover {
+    td {
+      background-color: #ebebf0 !important;
+    }
+  }
+}
+
+.table-no-wrap {
+  font-size: 0.9rem;
+  th,
+  td {
+    white-space: nowrap;
+  }
+}
+
+.table-sort {
+  display: contents;
+}

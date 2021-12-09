@@ -1,0 +1,49 @@
+.page-footer {
+  margin-top: 1rem;
+  padding: 1rem 0;
+  color: $gray-3;
+  text-align: center;
+  border-top: 0.05rem solid $gray-5;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.breadcrumb {
+  background: none;
+  border-radius: 0.75rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  padding: 0.75rem;
+}
+
+.card {
+  border-radius: 0.75rem;
+  border: 1px solid $gray-5;
+  background-color: #fafafa;
+  margin-bottom: 1rem !important;
+}
+
+.card-sub {
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-top: 1rem;
+  & > i:first-child {
+    color: $blue;
+  }
+  & > p:not(:first-of-type) {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    margin-top: -0.5rem;
+  }
+}
+
+.modal-center-icon {
+  display: block;
+  text-align: center;
+  padding-bottom: 1rem;
+}
