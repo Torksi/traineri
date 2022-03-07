@@ -173,12 +173,11 @@ export default function CustomerDetailsPage({
                       {
                         label: "Päiväys",
                         name: "date",
-                        width: "30%",
                         render: (d) => {
                           return dayjs(d.date).format("DD.MM.YYYY HH:mm");
                         },
                       },
-                      { label: "Tyyppi", name: "activity", width: "50%" },
+                      { label: "Tyyppi", name: "activity" },
                       {
                         label: "Kesto",
                         name: "duration",

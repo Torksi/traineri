@@ -52,8 +52,6 @@ export default function CustomersPage() {
                   identifier="email"
                   sort
                   search
-                  primarySearchKey="name"
-                  secondarySearchKey="email"
                   columns={[
                     {
                       label: "Nimi",
@@ -70,9 +68,9 @@ export default function CustomersPage() {
                         );
                       },
                     },
-                    { label: "Puhelinnumero", name: "phone", width: "30%" },
+                    { label: "Puhelinnumero", name: "phone" },
                     { label: "Sähköposti", name: "email" },
-                    { label: "Osoite", name: "streetaddress", width: "25%" },
+                    { label: "Osoite", name: "streetaddress" },
                     {
                       label: "Postiosoite",
                       name: "postalAddress",

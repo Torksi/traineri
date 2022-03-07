@@ -16,13 +16,8 @@ table {
   border: none;
 }
 
-.datagrid {
-  height: 35rem;
-}
-
 .table-datagrid {
   background-color: #fff;
-  display: block;
   width: 100%;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -31,14 +26,9 @@ table {
 
   th,
   td {
-    padding: 0.4rem 0.6rem 0.4rem;
+    // padding: 0.4rem 0.6rem 0.4rem;
+    padding: 0.2rem 0.4rem;
     white-space: nowrap;
-  }
-
-  th {
-    span:first-child {
-      padding-right: 0.3rem;
-    }
   }
 
   tr:hover {
@@ -56,6 +46,50 @@ table {
   }
 }
 
+.datagrid {
+  thead {
+    &.sort {
+      cursor: pointer;
+    }
+    // background-color: lighten($blue, 45%);
+    background-color: $gray-6;
+    th {
+      &:last-child {
+        padding-right: 0.75rem;
+      }
+    }
+  }
+
+  tfoot {
+    background-color: $gray-6;
+  }
+
+  tr:hover {
+    td {
+      background-color: #f8f8f8 !important;
+    }
+  }
+
+  .datagrid-select {
+    padding-left: 0.75rem;
+    padding-right: 0.25rem;
+  }
+
+  font-size: 0.95rem;
+}
+
 .table-sort {
-  display: contents;
+  padding-left: 0.25rem;
+  float: right;
+  color: $blue;
+  cursor: pointer;
+}
+
+.datagrid-container {
+  display: block;
+  overflow-y: auto;
+  .table {
+    margin-bottom: 0;
+  }
+  margin-bottom: 1rem;
 }
