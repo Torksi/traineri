@@ -1,15 +1,19 @@
-# Trainer
+# Personal Trainer Frontend
 
-Haaga-Helia AHOT-tehtävä kurssille SWD4TA026 - Frontend ohjelmointi.
+A frontend for a school project. It is a web application that allows users to create and manage their personal training sessions.
 
-## Projektin speksit ja käytetyt tekniikat
+## Specs & used tech:
 
-Tehtävänanto: [Specs.pdf](Specs.pdf)
-API speksit: [API-specs.pdf](API-specs.pdf)
+Specs: [Specs.pdf](Specs.pdf)
+API specs: [API-specs.pdf](API-specs.pdf)
 
 - TypeScript
 - NextJS 11.1
 - Bootstrap 4.6
+
+## Demo
+
+The project is deployed on Vercel and is available [here](https://traineri.vercel.app/).
 
 ## Deployment
 
